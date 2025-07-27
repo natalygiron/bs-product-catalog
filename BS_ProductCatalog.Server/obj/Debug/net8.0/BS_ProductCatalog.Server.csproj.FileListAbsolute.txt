@@ -162,6 +162,7 @@ C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\BS
 C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\BS_ProductCatalog.Server\obj\Debug\net8.0\BS_ProductCatalog.Server.csproj.CoreCompileInputs.cache
 C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\BS_ProductCatalog.Server\obj\Debug\net8.0\BS_ProductCatalog.Server.MvcApplicationPartsAssemblyInfo.cs
 C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\BS_ProductCatalog.Server\obj\Debug\net8.0\BS_ProductCatalog.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\BS_ProductCatalog.Server\obj\Debug\net8.0\BS_ProductCatalog.Server.sourcelink.json
 C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\BS_ProductCatalog.Server\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\BS_ProductCatalog.Server\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\BS_ProductCatalog.Server\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

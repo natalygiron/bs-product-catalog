@@ -12,13 +12,15 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowLocalhost",
-        policy =>
-        {
-            policy.WithOrigins("https://localhost:52280")
-                  .AllowAnyHeader()
-                  .AllowAnyMethod();
-        });
+    options.AddPolicy("PermitirFrontend", policy =>
+    {
+        policy.WithOrigins(
+            "https://localhost:52281",
+            "https://localhost:52280"
+        )
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
 });
 
 var app = builder.Build();
@@ -33,7 +35,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors("AllowLocalhost");
+app.UseCors("PermitirFrontend");
 
 app.UseHttpsRedirection();
 

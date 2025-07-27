@@ -15,6 +15,8 @@ interface Products {
 function App() {
     const [products, setProducts] = useState<Products[]>([]);
     const [search, setSearch] = useState("");
+    const [showModal, setShowModal] = useState(false);
+    const [selectedProduct, setSelectedProduct] = useState<Products>();
 
     const ConsumirAPI = async () => {
         const response = await fetch("https://localhost:7233/api/Products");
@@ -39,6 +41,20 @@ function App() {
         return `${day}-${month}-${year}`;
     }
 
+    const handleRowClick = async (product: Products) => {
+        try {
+            const response = await fetch(`https://localhost:7233/api/products/${product.id}`);
+        if (!response.ok) {
+                throw new Error('No se pudo obtener el producto');
+            }
+            const data = await response.json();
+            setSelectedProduct(data);
+            setShowModal(true);
+        } catch (error) {
+            console.error('Error al obtener el producto:', error);
+        }
+    };
+
     const contents = <table className="table table-striped" aria-labelledby="tableLabel">
             <thead>
                 <tr>
@@ -50,9 +66,9 @@ function App() {
                     <th>Fecha</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody >
                 {filteredProducts && filteredProducts.map(item => (
-                    <tr key={item.id}>
+                    <tr key={item.id} onClick={() => handleRowClick(item)} style={{ cursor: "pointer" }}>
                         <td>{item.id}</td>
                         <td>{item.name}</td>
                         <td>{item.description}</td>
@@ -72,6 +88,30 @@ function App() {
                 <AddProductButton onProductAdded={ConsumirAPI} />
             </div>
             {contents}
+
+            {showModal && selectedProduct && (
+                <div className="custom-modal-overlay">
+                    <div className="modal-dialog modal-dialog-centered" role="document">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h5 className="modal-title">Detalles del Producto</h5>
+                            </div>
+                            <div className="modal-body">
+                                <p><strong>ID:</strong> {selectedProduct.id}</p>
+                                <p><strong>Nombre:</strong> {selectedProduct.name}</p>
+                                <p><strong>Descripción:</strong> {selectedProduct.description}</p>
+                                <p><strong>Precio:</strong> {selectedProduct.price}</p>
+                                <p><strong>Categoría:</strong> {selectedProduct.category}</p>
+                                <p><strong>Fecha:</strong> {formatoFecha(new Date(selectedProduct.createdAt))}</p>
+                            </div>
+                            <div className="modal-footer">
+                                <button type="button" className="btn btn-secondary" onClick={() => setShowModal(false)}>Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            )}
+
         </div>
     );
 }

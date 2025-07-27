@@ -5,6 +5,7 @@ C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\Mo
 C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\Models\obj\Debug\net8.0\Models.AssemblyInfoInputs.cache
 C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\Models\obj\Debug\net8.0\Models.AssemblyInfo.cs
 C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\Models\obj\Debug\net8.0\Models.csproj.CoreCompileInputs.cache
+C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\Models\obj\Debug\net8.0\Models.sourcelink.json
 C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\Models\obj\Debug\net8.0\Models.dll
 C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\Models\obj\Debug\net8.0\refint\Models.dll
 C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\Models\obj\Debug\net8.0\Models.pdb

@@ -10,6 +10,7 @@ C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\Co
 C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\Controllers\obj\Debug\net8.0\Controllers.AssemblyInfoInputs.cache
 C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\Controllers\obj\Debug\net8.0\Controllers.AssemblyInfo.cs
 C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\Controllers\obj\Debug\net8.0\Controllers.csproj.CoreCompileInputs.cache
+C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\Controllers\obj\Debug\net8.0\Controllers.sourcelink.json
 C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\Controllers\obj\Debug\net8.0\Controll.01F35609.Up2Date
 C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\Controllers\obj\Debug\net8.0\Controllers.dll
 C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\Controllers\obj\Debug\net8.0\refint\Controllers.dll
