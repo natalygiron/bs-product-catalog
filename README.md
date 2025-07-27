@@ -1,0 +1,1 @@
+# bs-product-catalog
