@@ -1,0 +1,66 @@
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    max-width: 60%;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.title {
+    margin: 10px 0px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 70%;
+    margin: auto;
+    background-color: ghostwhite;
+    border-color: cadetblue;
+    color: #333;
+}
+
+.button-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn btn-primary {
+    height: auto;
+}
+
+.floating-alert {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1050;
+    width: auto;
+    max-width: 90%;
+    opacity: 0.95;
+}

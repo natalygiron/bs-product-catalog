@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:52280",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Nataly\\Projects\\Personal\\Prueba Tecnica\\BoticasSaludReto\\BS_ProductCatalog\\BS_ProductCatalog.Server\\..\\bs_productcatalog.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

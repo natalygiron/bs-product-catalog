@@ -1,0 +1,1 @@
+C:\Nataly\Projects\Personal\Prueba Tecnica\BoticasSaludReto\BS_ProductCatalog\bs_productcatalog.client\obj\Debug\bs_productcatalog.client.esproj.CoreCompileInputs.cache
